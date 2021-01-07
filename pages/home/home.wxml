@@ -3,4 +3,5 @@
   <button open-type="getUserInfo" bindgetuserinfo="buttonHandler">
     授权获取用户个人信息
   </button>
+  <navigator url="../second/second">前往第二页</navigator>
 </view>
