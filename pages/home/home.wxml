@@ -3,5 +3,6 @@
   <button open-type="getUserInfo" bindgetuserinfo="buttonHandler">
     授权获取用户个人信息
   </button>
+  <button bindtap="buttonHandler1">wx.navigateTo second</button>
   <navigator url="../second/second">前往第二页</navigator>
 </view>
