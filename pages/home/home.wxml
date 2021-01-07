@@ -1,3 +1,4 @@
 <view>
   <text class="title">hello {{name}}</text>
+  <text class="title">现在是 {{now}}</text>
 </view>
