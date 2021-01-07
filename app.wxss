@@ -2,7 +2,7 @@ page {
   background-color: pink;
 }
 
-text {
+.title {
   font-size: 24pt;
   color: blue;
 }
