@@ -1,7 +1,7 @@
 <view>
-  <text class="title">hello {{name}}</text>
-  <button bind:tap="buttonHandler">点击</button>
   <text class="title" wx:for="{{items}}">
     {{index}}、{{item}}
   </text>
+  <input placeholder="输入新增事项" bindinput="inputHandler" />
+  <button bindtap="buttonHandler">确认</button>
 </view>
