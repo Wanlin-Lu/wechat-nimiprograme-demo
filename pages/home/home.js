@@ -6,8 +6,16 @@ Page({
     now: app.globalData.now
   },
   buttonHandler(event) {
-    this.setData({
-      name: '阿桑'
-    })
+    this.setData(
+      {
+        name: '阿桑',
+      },
+      function () {
+        wx.showToast({
+          title: '操作完成',
+          duration: 700,
+        })
+      }
+    )
   }
 });
