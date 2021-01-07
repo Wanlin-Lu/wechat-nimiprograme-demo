@@ -3,7 +3,8 @@ const app = getApp()
 Page({
   data: {
     name: '阿西达卡',
-    now: app.globalData.now
+    now: app.globalData.now,
+    items: ['事项A','事项B','事项C']
   },
   buttonHandler(event) {
     const that = this;

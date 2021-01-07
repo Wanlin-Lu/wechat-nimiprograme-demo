@@ -1,4 +1,7 @@
 <view>
   <text class="title">hello {{name}}</text>
   <button bind:tap="buttonHandler">点击</button>
+  <text class="title" wx:for="{{items}}">
+    {{index}}、{{item}}
+  </text>
 </view>
