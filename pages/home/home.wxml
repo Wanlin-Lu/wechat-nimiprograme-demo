@@ -1,3 +1,6 @@
 <view>
-  <image src="https://picsum.photos/200"></image>
+  <image 
+    src="https://picsum.photos/200"
+    style="height: 375rpx; width: 375rpx;"
+  ></image>
 </view>
